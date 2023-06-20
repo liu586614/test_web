@@ -1,0 +1,62 @@
+/* 声明字体图标 */
+/* 这里一定要注意路径的变化 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?pfunqz');
+    src:  url('../fonts/icomoon.eot?pfunqz#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?pfunqz') format('truetype'),
+      url('../fonts/icomoon.woff?pfunqz') format('woff'),
+      url('../fonts/icomoon.svg?pfunqz#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+*{
+    margin :0 ;
+    padding: 0;
+}
+.w{
+    width: 1226px;
+    margin:0 auto;
+}
+body{
+    text-align: center;
+}
+ol,
+ul,
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input,
+button,
+img{
+    border: none;
+    vertical-align: middle;
+}
+div{
+    box-sizing: border-box;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    zoom: 1;
+}
+  
+
+h1,
+h2,
+h3,
+h4{
+    font-weight: 400;
+}
